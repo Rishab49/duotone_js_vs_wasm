@@ -11,4 +11,7 @@ But you will feel that on the `web worker + WASM` side the speed of calculation 
 
 `note : for better observation use image > 5mb which you can find easily on websites likes pexels.com or unsplash.com`
 
+## Takeaway
+key takeaway from this project is that if we have large amount of data but we are perfrorming simple operations on that data then it does not matter much if we are using javascript or wasm for that. 
+
 If you have some code optimisations from your side then please make a PR.
