@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS vs WASM</title>
+    <link rel="stylesheet" href="./style.css">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap" rel="stylesheet"></head>
+<body>
+    <div id="js">
+        <div class="input_container">
+            <input type="file" id="js_file">
+            <label for="js_file"><p>Web Worker</p><button type="button" class="file_button">Select File</button></label>
+            <span>
+                <input type="color" value="#000000">
+                <input type="color" value="#ffa500">
+            </span>
+
+        </div>
+        <canvas id="js-canvas">
+        </canvas>
+    </div>
+    <div id="wasm">
+        <div class="input_container">
+            <input type="file" id="wasm_file">
+            <label for="wasm_file"><p>Web Worker + WASM</p><button type="button" class="file_button">Select File</button></label>
+            <span>
+                <input type="color" value="#000000">
+                <input type="color" value="#ffa500">
+            </span>
+
+        </div>
+        <canvas id="wasm-canvas" willReadFrequently="true"></canvas>
+    </div>
+    <script src="./scripts/js-canvas.js"></script>
+    <script src="./scripts/wasm-canvas.js"></script>
+
+</body>
+</html>
