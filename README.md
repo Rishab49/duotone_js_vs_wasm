@@ -1,6 +1,6 @@
 # duotone_js_vs_wasm
 
-link : 
+link : https://duotone-js-vs-wasm.vercel.app/
 
 ## Introduciton
 This app is for demonstration purpose to compare the calculation speed of javascript with wasm code(cpp code compiled to wasm using emscripten).
